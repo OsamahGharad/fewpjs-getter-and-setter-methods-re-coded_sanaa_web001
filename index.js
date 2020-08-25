@@ -11,9 +11,10 @@ set diameter(diameter){
     return this.radius * 2 ;
   }
   set circumference(circumference){
-    this.radius = 2(circumference / this.pi);
+    this.radius = 2 * (circumference / this.pi);
   }
   get circumference (){
+    let diameter;
     return this.pi * diameter;
   }
 
