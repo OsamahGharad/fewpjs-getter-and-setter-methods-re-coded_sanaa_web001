@@ -1,7 +1,7 @@
 // Add your Circle class here
 class Circle {
   constructor(radius) {
-    this.raduis=raduis;
+    this.radius=radius;
     this.pi=Math.PI;
   }
 set diameter(diameter){
