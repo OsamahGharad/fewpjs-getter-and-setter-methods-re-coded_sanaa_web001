@@ -14,8 +14,8 @@ set diameter(diameter){
     this.radius =  (circumference / Math.PI) / 2;
   }
   get circumference (){
-    let diameter;
-    return this.pi * diameter;
+  
+    return this.pi * this.diameter;
   }
 
   get area(){
