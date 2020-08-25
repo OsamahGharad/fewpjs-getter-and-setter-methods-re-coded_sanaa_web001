@@ -19,7 +19,7 @@ set diameter(diameter){
   }
 
   get area(){
-    return pi * Math.sqrt(radius);
+    return this.pi * Math.sqrt(radius);
   }
 
 }//end class circle
