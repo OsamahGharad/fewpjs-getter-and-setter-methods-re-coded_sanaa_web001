@@ -23,4 +23,4 @@ set diameter(){
 
 }//end class circle
 
-const circle =new circle(6)
+const circle =new Circle(6)
