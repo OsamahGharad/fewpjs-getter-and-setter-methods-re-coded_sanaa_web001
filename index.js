@@ -4,14 +4,14 @@ class Circle {
     this.raduis=raduis;
     this.pi=Math.PI;
   }
-set diameter(){
-  this.diameter=this.radius * 2;
+set diameter(diameter){
+  this.radius =diameter / 2;
 }
   get diameter(){
     return this.radius * 2 ;
   }
-  set circumference(){
-    this.circumference=
+  set circumference(circumference){
+    this.radius = 2(circumference / pi); 
   }
   get circumference (){
     return pi * diameter;
