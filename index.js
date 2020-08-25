@@ -22,5 +22,3 @@ set diameter(diameter){
   }
 
 }//end class circle
-
-
