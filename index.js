@@ -20,8 +20,7 @@ set diameter(){
   get area(){
     return pi * sqrt(radius);
   }
-  
+
 }//end class circle
 
 const circle =new circle(6)
-
